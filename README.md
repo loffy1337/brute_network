@@ -21,6 +21,7 @@
 | MySQL      | 3306              | Stable        |
 | PostgreSQL | 5432              | Stable        |
 | MSSQL      | 1433              | Stable        |
+| OracleDB   | 1521              | Experimental  |
 | Telnet     | 23                | Experimental  |
 
 ## Список флагов
