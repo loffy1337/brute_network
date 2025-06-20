@@ -27,8 +27,8 @@ func NewAuthenticator(protocol string, ip string, port int) (Authenticator, erro
 		return NewPostgreSQL(ip, port), nil
 	case "mssql":
 		return NewMSSQL(ip, port), nil
-	// case "oracle":
-	// 	return NewOracle(ip, port), nil
+	case "oracle":
+		return NewOracle(ip, port), nil
 	default:
 		return nil, fmt.Errorf("protocol (%s) not supported", protocol)
 	}
